@@ -20,6 +20,7 @@ public class Main {
             print(citySearchEngine.cityByName());
             System.out.println("sorted by district and name:");
             print(citySearchEngine.cityByDistrictAndName());
+            System.out.println(citySearchEngine.cityWithMostPopulation());
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);

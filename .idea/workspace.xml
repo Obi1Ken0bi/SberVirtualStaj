@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a700089d-3616-4c93-bd4f-b592ed01df09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a700089d-3616-4c93-bd4f-b592ed01df09" name="Changes" comment="Task 3">
       <change afterPath="$PROJECT_DIR$/city_ru.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/tools/CityParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/tools/CitySearchEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/tools/CitySearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/puzikov/SberVirtualStaj/tools/CitySearchEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +81,16 @@
       <updated>1652540269781</updated>
       <workItem from="1652540271291" duration="1306000" />
       <workItem from="1652554719008" duration="202000" />
-      <workItem from="1652708252762" duration="1111000" />
+      <workItem from="1652708252762" duration="1868000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 3">
+      <created>1652709433336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652709433336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3" />
   </component>
 </project>
