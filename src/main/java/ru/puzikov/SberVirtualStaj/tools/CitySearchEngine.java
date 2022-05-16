@@ -3,7 +3,9 @@ package ru.puzikov.SberVirtualStaj.tools;
 import ru.puzikov.SberVirtualStaj.model.City;
 
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class CitySearchEngine {
@@ -33,5 +35,13 @@ public class CitySearchEngine {
             }
         }
         return ("[%d] = %d".formatted(maxPopulationId, maxPopulation));
+    }
+    public Map<String, Integer> regionsCityNumbers(){
+        Map<String,Integer> regionMap=new HashMap<>();
+        for (City city : cityList) {
+            String region = city.getRegion();
+            regionMap.put(region, regionMap.getOrDefault(region, 0) + 1);
+        }
+        return regionMap;
     }
 }

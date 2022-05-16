@@ -7,6 +7,7 @@ import ru.puzikov.SberVirtualStaj.tools.CitySearchEngine;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +22,11 @@ public class Main {
             System.out.println("sorted by district and name:");
             print(citySearchEngine.cityByDistrictAndName());
             System.out.println(citySearchEngine.cityWithMostPopulation());
+            Map<String, Integer> regionsCityNumbers = citySearchEngine.regionsCityNumbers();
+            for (Map.Entry<String, Integer> entry :
+                    regionsCityNumbers.entrySet()) {
+                System.out.printf("%s - %d%n", entry.getKey(), entry.getValue());
+            }
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
